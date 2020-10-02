@@ -1,4 +1,4 @@
-; BCD to binary
+; Binary to BCD
 
 Assume cs: code, ds:data
 
