@@ -1,3 +1,5 @@
+; Finding max & min value of an array
+
 Assume cs:code, ds :data
 
 data segment
