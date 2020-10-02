@@ -1,5 +1,7 @@
-Assume cs: code, ds:data
 ; BCD to binary
+
+Assume cs: code, ds:data
+
 data segment
 	a      db 17h
 data ends
