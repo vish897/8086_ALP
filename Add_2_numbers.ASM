@@ -1,8 +1,10 @@
+; ALP to add 2 numbers
 Assume  cs:code, ds:data
 
 data segment
-	a dw 122h
-	b dw 123h
+	a   dw 122h
+	b   dw 123h
+	sum dw 0000h
 data ends
 
 code segment
@@ -12,7 +14,7 @@ code segment
 		mov ax,a
 		mov bx,b
 		add ax,bx
-		mov di,ax 
+		mov sum,ax 
 		mov ah,4ch
 		int 21h
 code ends
