@@ -1,4 +1,5 @@
 ; length of string data
+
 Assume cs: code, ds:data
 data segment
 	a      db 'hello$'
