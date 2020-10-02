@@ -1,3 +1,5 @@
+; Number of ebven numbers and odd numbers in an array
+
 Assume cs:code, ds :data
 
 data segment
