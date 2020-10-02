@@ -1,1 +1,1 @@
-# 8086_ALP
+A few basic programs in 8086 Assembly language programming
