@@ -2,7 +2,7 @@
 
 Assume cs: code, ds:data
 data segment
-	a      db 'hello$'
+	a  db 'hello$'
 data ends
 
 code segment
