@@ -1,3 +1,5 @@
+; Calculating number of 1s & 0s in a binary number
+
 Assume cs:code, ds :data
 
 data segment
