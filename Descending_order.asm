@@ -1,5 +1,7 @@
 ; descending order
+
 assume cs: code, ds:data
+
 data segment
 	a      dw 2h, 3h, 4h, 5h
 	len    db 4h
