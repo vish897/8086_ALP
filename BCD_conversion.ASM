@@ -8,31 +8,31 @@ data ends
 
 code segment
 	start:
-		mov ax, data
+		mov ax, data 
 		mov ds, ax
 		
-		mov ax,a
-		mov cx,0h
-		mov cl,4h
+		mov ax, a
+		mov cx, 0h
+		mov cl, 4h
 		
-		mov bx,0h
-		mov bl,ah
+		mov bx, 0h
+		mov bl, ah
 		
-		rol ax,cl
+		rol ax, cl
 		
-		ror al,cl
+		ror al, cl
 		
-		cmp bx,0h
+		cmp bx, 0h
 		jne l1
 		
 		progend:
-			mov result,ax
-			mov ah,4ch
+			mov result, ax
+			mov ah, 4ch
 			int 21h
 		
 		l1:
-			add al,ah
-			mov ah,0h
+			add al, ah
+			mov ah, 0h
 			jmp progend
 
 code ends
