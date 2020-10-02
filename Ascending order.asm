@@ -1,4 +1,5 @@
 ; Ascending order
+
 Assume cs: code, ds:data
 
 data segment
